@@ -1,0 +1,98 @@
+body{
+overflow: hidden;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.obaid-conversation{
+border: 1px royalblue solid;
+width: 50vmin;height: 80vmin;
+position: absolute;top: 64%;left: 50%;
+transform: translate(-50% , -60%);border-radius:4px ;
+}
+.Buttons-Of-conversations{
+position: absolute;top: 10%;left: 50%;
+transform: translate(-50% , -60%);
+}
+.dina-conversation{
+display: none;
+}
+.obaid-Button , .dina-Button{
+background-color: royalblue;
+color: white;border: none;width: 14vmin;
+height: 6vmin;border-radius: 6px;cursor: pointer;
+transition: background-color 0.3s , color 0.3s , width 0.3s , height 0.3s , border 0.3s;
+}
+
+.dina-Button{
+    background-color: white;
+    border: 1px solid royalblue;
+    color: royalblue;
+}
+.obaid-Button:hover , .dina-Button:hover{
+background-color: white;color: royalblue;
+width: 15vmin;height: 7vmin;
+}
+.obaid-message-Bar{
+    height: 8vmin;position: absolute;width: 100%;
+    top: 100%;transform: translateY(-100%);
+    background-color: royalblue; display: flex;flex-direction: row;
+}
+.message-inbu{
+width: 100%;display: flex;flex-direction: row;justify-content: space-around;
+}
+.message-input{
+height: 5vmin;margin-top:1vmin ;border-radius: 16px;border: none;width: 38vmin;
+transition: border-radius 0.3s;color: royalblue ;
+}
+.message-input:focus{
+border-radius: 6px;outline-color: royalblue;
+}
+.send-Button{
+border: none;cursor: pointer;margin-top:1vmin ;background-color: white;border-radius: 100vmin;height: 5.5vmin;width: 5.5vmin;
+}
+.info{
+height: 9vmin;
+background-color: royalblue;display: flex;flex-direction: column;
+}
+.profile-info{
+display: flex;
+}
+.profile{
+border-radius: 100vmin;background-color: white;width: 7.5vmin;height: 7.5vmin;
+margin-top: 4.5px;margin-left: 4.5px;margin-right: 10px;
+}
+.name{
+color: white;
+}
+.ObaidmessageSender{
+background-color: #4169e1; width: 94%;margin: auto;height: auto;
+border-radius: 4px;margin-top: 4px;
+}
+.messages{
+height: 80%;overflow: auto;
+word-wrap: break-word;
+}
+.time{
+color:rgb(255, 255, 255);display:flex;font-size: 13px;
+justify-content: end;margin-right: 4px;margin-top: -20px;
+}
+.msgg{
+color: white;font-size:20px ;
+display: inline-block;margin-left: 45px;
+word-wrap: break-word;margin-top: -30px;
+}
+.bubble{
+display: flex;flex-direction: row;
+}
+.imgOfSender{
+border-radius: 100%;width: 6vmin;height: 6vmin;
+background-color: white;transform: translate(8%,16%);
+}
+.sendSVG{
+margin-top: 4px;margin-right: 4px;
+}
+.senderName{
+font-size: 13px;color: white;display:flex;
+margin-left: 40px;margin-top: -30px;
+}
